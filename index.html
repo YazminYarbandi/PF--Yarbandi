@@ -16,24 +16,45 @@
 
 <body>
     <div id="container">
-        <header>
-            <nav class="emerald__nav">
-                <ul>
-                    <li class="emerald__list">
-                        <img class="img-logo" src="./img/logo.png" alt="Logo">
-                        <a class="secciones__sitio" href="./index.html" alt> HOME</a>
-                        <a class="secciones__sitio" href=".//secciones/servicios.html"> SERVICIOS</a>
-                        <a class="secciones__sitio" href=".//secciones/cursos.html"> CURSOS</a>
-                        <a class="secciones__sitio" href=".//secciones/articulos.html"> ARTÍCULOS </a>
-                        <a class="secciones__sitio" href=".//secciones/contacto.html"> CONTACTO</a>
-                    </li>
-                </ul>
-            </nav>
-            <div class="clearfix">
+  
+                        <img class="img-logo" src=".//img/logo.png" alt="Logo">
+                  
+<header>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="index.html">Emerald</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=".//secciones/servicios.html">Servicios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=".//secciones/cursos.html">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=".//secciones/articulos.html">Articulos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href=".//secciones/contacto.html ">Contactos</a>
+                  </li>
+                   </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
             </div>
-            <hr>
-        </header>
-        
+          </nav>
+        </header>   
+
+
         <section id="content">
             <article class="article">
                 <h1 class="titulo">¡EL TIEMPO ES HOY!</h1>
@@ -84,10 +105,10 @@
     </aside>
     </div>
 </body>
-<footer>
+<footer >
     <div>
         <p>ENCONTRANOS EN</p>
-        <ul >
+        <ul class="ulNone">
             <li class="emerald__redes"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true" target="_blank"></i></a></li>
             <li class="emerald__redes"><a href="#"><i class="fa fa-instagram" aria-hidden="true" target="_blank"></i>
             <li class="emerald__redes"><a href="#"><i class="fa fa-whatsapp" aria-hidden="true" target="_blank"></i>
