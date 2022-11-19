@@ -1,5 +1,5 @@
 .container {
-    width: 15%;
+    
     margin: 1.25rem;
     padding: auto;
     border-radius: 10px;
@@ -14,14 +14,7 @@
 
 }
 
-.seccion-art{
 
-display: flex;
-flex-direction: row;
-justify-content: space-evenly;
-
-
-}
 
 .serviceText{
 
@@ -38,4 +31,26 @@ justify-content: space-evenly;
     font-size: xx-large;
     text-align: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+@media(min-width:768px) {
+    #gridServicios {
+        display: grid;
+        grid-template-areas: "card1 card2 card3";
+        grid-template-rows: auto;
+        grid-template-columns:33% 33% 33%;
+        gap: 1px;
+    }
+}
+@media(max-width:480px) {
+    #gridServicios {
+        display: grid;
+        grid-template-areas:
+            "card1"
+            "card2"
+            "card3";
+        grid-template-rows: auto;
+        grid-template-columns: 100%;
+        gap: 1px;
+    }
 }
