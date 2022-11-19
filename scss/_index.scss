@@ -129,6 +129,11 @@ h3 {
     border: 10px solid;
     margin: 30px;
 }
+@media(max-width:480px) {
+    .cursos__img {
+        width: 90%;
+    }
+}
 
 .cursos__text {
     text-align: center;
